@@ -6,10 +6,13 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 
 ## Development journal
 
+- Spent time reviewing the project description and writing notes so that I don’t miss out on any requirements of this project. I also reviewed the example websites to get the idea on how others approached this project as well to potentially get some design ideas.
+- I created the starter files and then spent some time reviewing the Bootstrap Navbar documentation. I've learned the hard way that the `data` has been changed to `data-bs` in Bootstrap V5. I've created a navbar that I believe will suffice for now. I will look up some tutorials on navbar toggler animation and potentially implement that. Next big thing that I will work on will be general design which includes choosing font and color palette.
+
 ## To Do
 
-- [] Review the project description
-- [] Create starter files and initial commit
+- [x] Review the project description
+- [x] Create starter files and initial commit
 - [] Deploy site
 - [] Navbar
 - [] About
