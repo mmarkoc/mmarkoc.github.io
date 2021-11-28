@@ -1,1 +1,11 @@
+/* */
+
+.root {
+  --bg-color: #242020;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
 /* Navbar Toggler customization */
