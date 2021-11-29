@@ -4,6 +4,7 @@
   --bg-color: #141414;
   --text-color: #c7c7c7;
   --hover-color: #41994d;
+  --resume-color: #ebf261;
 }
 
 body {
@@ -17,12 +18,38 @@ main {
 }
 h3 {
   text-align: center;
+  color: var(--hover-color);
+}
+
+h4 {
+  text-align: center;
+  color: var(--resume-color);
+}
+
+h5 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.resume-text {
+  text-align: center;
 }
 
 .nav-item:hover {
   background-color: var(--hover-color);
 }
 
+/* Resume Customizations */
+
+.resume-buttons {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 10px;
+}
+
+.resume-buttons:hover {
+  background-color: var(--hover-color);
+}
 /* Navbar Icons */
 
 .material-icons {
