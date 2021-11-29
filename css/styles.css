@@ -1,8 +1,9 @@
-/* */
+/* General CSS settings */
 
 :root {
   --bg-color: #141414;
   --text-color: #c7c7c7;
+  --hover-color: #41994d;
 }
 
 body {
@@ -19,6 +20,13 @@ h3 {
 }
 
 .nav-item:hover {
-  background-color: rgb(65, 153, 77);
+  background-color: var(--hover-color);
 }
+
+/* Navbar Icons */
+
+.material-icons {
+  font-size: 20px;
+}
+
 /* Navbar Toggler customization */
