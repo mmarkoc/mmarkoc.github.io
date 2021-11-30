@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "M PLUS 1 Code", Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'M PLUS 1 Code', Roboto, Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
@@ -67,7 +67,8 @@ h5 {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  /*background-color: #fefefe;*/
+  /* background-color: var(--bg-color); */
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
