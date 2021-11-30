@@ -13,6 +13,7 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - While going through google fonts I've noticed that they have a wide selection of various icons so I've decided to implement some of those into my navbar. I also finished the about section
 - While working on the resume section I've decided to use modal boxes to provide more detail about my work experience. I used [W3 Schooled Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) for that.
 - My first implementation of modals was incorrect as it was, while looping through an array of class modals, opening all of the modals at once. I noticed that while implementing the close action. My solution was to introduce ids’ to elements and check which button was pressed. There must be a more efficient way to do this and I might come back to this at the end.Next thing I will work on will be adding actual content to modals and modal design.
+- I added details for each job to modals and decided to use the same color palette I used on navbar. Decision to use modals in the resume section turned out to be an efficient way to learn more on how to handle events across multiple elements of the same class in javascript.
 
 ## To Do
 
