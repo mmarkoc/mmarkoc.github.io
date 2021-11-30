@@ -22,7 +22,7 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - [] Deploy site
 - [x] Navbar
 - [x] About
-- [] Resume
+- [x] Resume
 - [] Projects
 - [] Contact
 - [] Test for various screen sizes
