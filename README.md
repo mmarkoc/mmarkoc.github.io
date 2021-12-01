@@ -4,6 +4,13 @@
 
 This is my final project for CS510 "Intro to Web Development". Plan is to create simple and responsive personal website using HTML,CSS, Bootstrap with Javascript and Jquery. Currently, the plan is to deploy the website using GitHub.
 
+## External Resources
+
+- [Google Fonts](https://fonts.googleapis.com/css2?family=M+PLUS+1+Code)
+- [Google Icons](https://fonts.googleapis.com/icon?family=Material+Icons)
+- [W3 Schooled Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp)
+- [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide)
+
 ## Development journal
 
 - Spent time reviewing the project description and writing notes so that I don’t miss out on any requirements of this project. I also reviewed the example websites to get the idea on how others approached this project as well to potentially get some design ideas.
@@ -14,6 +21,7 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - While working on the resume section I've decided to use modal boxes to provide more detail about my work experience. I used [W3 Schooled Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) for that.
 - My first implementation of modals was incorrect as it was, while looping through an array of class modals, opening all of the modals at once. I noticed that while implementing the close action. My solution was to introduce ids’ to elements and check which button was pressed. There must be a more efficient way to do this and I might come back to this at the end.Next thing I will work on will be adding actual content to modals and modal design.
 - I added details for each job to modals and decided to use the same color palette I used on navbar. Decision to use modals in the resume section turned out to be an efficient way to learn more on how to handle events across multiple elements of the same class in javascript.
+- I have used some information from the following bootstrap form guide [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide) to create the contact form. I decided to stick with the bootstrap grid to get the desired layout of the form even though I could have probably get the same result with less code.
 
 ## To Do
 
@@ -24,6 +32,6 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - [x] About
 - [x] Resume
 - [] Projects
-- [] Contact
+- [x] Contact
 - [] Test for various screen sizes
 - [] Accessibility check
