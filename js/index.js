@@ -4,6 +4,7 @@ let buttons = document.querySelectorAll(".resume-buttons");
 let oldText;
 let modals = document.querySelectorAll(".resume-modals");
 let closeButtons = document.querySelectorAll(".close");
+let projects = document.querySelectorAll(".project-link");
 
 // Resume button events
 buttons.forEach((button) => {

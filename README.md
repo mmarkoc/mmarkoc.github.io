@@ -21,7 +21,8 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - While working on the resume section I've decided to use modal boxes to provide more detail about my work experience. I used [W3 Schooled Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) for that.
 - My first implementation of modals was incorrect as it was, while looping through an array of class modals, opening all of the modals at once. I noticed that while implementing the close action. My solution was to introduce ids’ to elements and check which button was pressed. There must be a more efficient way to do this and I might come back to this at the end.Next thing I will work on will be adding actual content to modals and modal design.
 - I added details for each job to modals and decided to use the same color palette I used on navbar. Decision to use modals in the resume section turned out to be an efficient way to learn more on how to handle events across multiple elements of the same class in javascript.
-- I have used some information from the following bootstrap form guide [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide) to create the contact form. I decided to stick with the bootstrap grid to get the desired layout of the form even though I could have probably get the same result with less code.
+- I have used some information from the following bootstrap form guide [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide) to create the contact form. I decided to stick with the bootstrap grid to get the desired layout of the form even though I could have probably got the same result with less code.
+- I decided to go with a simple design for projects section with using github icons for links to the project repositories. In order to open links in the new tab I have used [freedcodecamp](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) tutorial.
 
 ## To Do
 
@@ -31,7 +32,7 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - [x] Navbar
 - [x] About
 - [x] Resume
-- [] Projects
+- [x] Projects
 - [x] Contact
 - [] Test for various screen sizes
 - [] Accessibility check

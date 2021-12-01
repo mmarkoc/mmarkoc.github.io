@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'M PLUS 1 Code', Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "M PLUS 1 Code", Roboto, Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   padding-bottom: 50px;
@@ -107,4 +107,21 @@ h5 {
 
 .send-btn:hover {
   background-color: var(--hover-color);
+}
+
+/* Project customizations */
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.github-icon {
+  font-size: 48px;
+  color: var(--resume-color);
+}
+
+.github-icon:hover {
+  color: var(--hover-color);
 }
