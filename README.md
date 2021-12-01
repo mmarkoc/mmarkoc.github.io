@@ -23,6 +23,7 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - I added details for each job to modals and decided to use the same color palette I used on navbar. Decision to use modals in the resume section turned out to be an efficient way to learn more on how to handle events across multiple elements of the same class in javascript.
 - I have used some information from the following bootstrap form guide [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide) to create the contact form. I decided to stick with the bootstrap grid to get the desired layout of the form even though I could have probably got the same result with less code.
 - I decided to go with a simple design for projects section with using github icons for links to the project repositories. In order to open links in the new tab I have used [freedcodecamp](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) tutorial.
+- The only alert reported by WAVE was the missing header so I decided to fix that. I adjusted the navbar to have the missing headers. Minor sizing adjustments were required in order for navbar to look the same as before the change.
 
 ## To Do
 
@@ -36,3 +37,4 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - [x] Contact
 - [] Test for various screen sizes
 - [] Accessibility check
+- [] Performance check

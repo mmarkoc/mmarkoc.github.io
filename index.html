@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Marko Markoc" />
     <title>Marko Markoc</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <link
       rel="stylesheet"
@@ -55,22 +58,24 @@
               <ul class="navbar-nav align-items-center mx-auto">
                 <li class="nav-item">
                   <a class="nav-item nav-link mx-5" href="#about"
-                    ><i class="material-icons">face</i> About</a
+                    ><h2><i class="material-icons">face</i> About</h2></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-item nav-link mx-5" href="#resume"
-                    ><i class="material-icons">description</i> Resume</a
+                    ><h2>
+                      <i class="material-icons">description</i> Resume
+                    </h2></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-item nav-link mx-5" href="#projects"
-                    ><i class="material-icons">build</i> Projects</a
+                    ><h2><i class="material-icons">build</i> Projects</h2></a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-item nav-link mx-5" href="#contact"
-                    ><i class="material-icons">mail</i> Contact</a
+                    ><h2><i class="material-icons">mail</i> Contact</h2></a
                   >
                 </li>
               </ul>
@@ -312,50 +317,49 @@
       <div class="container pt-5 mt-5" id="projects">
         <h3>Projects</h3>
 
-          <div class="pt-3 project">
-            <h4>754converter</h4>
-            <a
+        <div class="pt-3 project">
+          <h4>754converter</h4>
+          <a
             href="https://github.com/mmarkoc/754converter"
             class="project-link"
             target="_blank"
             rel="noopener noreferrer"
             title="Open on GitHub"
-          ><i class="fa fa-github github-icon" ></i></a>
-            <p>
-              This is a simple and primitive IEEE Standard for Floating-Point
-              Arithmetic (Links to an external site.) (IEEE 754) (Links to an
-              external site.) hexadecimal to decimal converter. For my System's
-              Programming course I had to do a lot of manual IEEE 754
-              calculations with sub 32 bit numbers and I needed a way to check
-              if they are correct. All of the existing converters/calculators I
-              found only supported fixed single precision (1 sign bit + 8
-              exponents bits + 23 fraction bits) so I wrote the simple converter
-              in C that allows you to set the fraction and exponent size.
-            </p>
-          </div>
-        
-       
-          <div class="project">
-            <h4>DedupCalc</h4>
-             <a
-          href="https://github.com/mmarkoc/dedup_calc"
-          class="project-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Open on GitHub"
-        ><i class="fa fa-github github-icon" ></i>
-      </a>
-            <p>
-              Idea behind this project was to create a simple deduplication
-              (Links to an external site.) calculator that provides you with the
-              estimate of the storage space saved based on the given block size.
-              This is written in C and it was a way for me to learn more about
-              system's programming, data structures and multithreading. Initial
-              version only provides calculation for a single file and the plan
-              for future is to provide directory and network share calculation.
-            </p>
-          </div>
-        </a>
+            ><i class="fa fa-github github-icon"></i
+          ></a>
+          <p>
+            This is a simple and primitive IEEE Standard for Floating-Point
+            Arithmetic (Links to an external site.) (IEEE 754) (Links to an
+            external site.) hexadecimal to decimal converter. For my System's
+            Programming course I had to do a lot of manual IEEE 754 calculations
+            with sub 32 bit numbers and I needed a way to check if they are
+            correct. All of the existing converters/calculators I found only
+            supported fixed single precision (1 sign bit + 8 exponents bits + 23
+            fraction bits) so I wrote the simple converter in C that allows you
+            to set the fraction and exponent size.
+          </p>
+        </div>
+
+        <div class="project">
+          <h4>DedupCalc</h4>
+          <a
+            href="https://github.com/mmarkoc/dedup_calc"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open on GitHub"
+            ><i class="fa fa-github github-icon"></i>
+          </a>
+          <p>
+            Idea behind this project was to create a simple deduplication (Links
+            to an external site.) calculator that provides you with the estimate
+            of the storage space saved based on the given block size. This is
+            written in C and it was a way for me to learn more about system's
+            programming, data structures and multithreading. Initial version
+            only provides calculation for a single file and the plan for future
+            is to provide directory and network share calculation.
+          </p>
+        </div>
       </div>
       <!-- End Projects-->
       <!-- Contact -->
