@@ -2,7 +2,7 @@
 
 ## About
 
-This is my final project for CS510 "Intro to Web Development". Plan is to create simple and responsive personal website using HTML,CSS, Bootstrap with Javascript and Jquery. Currently, the plan is to deploy the website using GitHub.
+This is my final project for CS510 "Intro to Web Development". Plan is to create simple and responsive personal website using HTML,CSS, Bootstrap with Javascript and Jquery. Website is deployed using github and it is available at [mmarkoc.github.io](mmarkoc.github.io).
 
 ## External Resources
 
@@ -24,17 +24,18 @@ This is my final project for CS510 "Intro to Web Development". Plan is to create
 - I have used some information from the following bootstrap form guide [startbootrap.com](https://startbootstrap.com/guides/bootstrap-form-setup-guide) to create the contact form. I decided to stick with the bootstrap grid to get the desired layout of the form even though I could have probably got the same result with less code.
 - I decided to go with a simple design for projects section with using github icons for links to the project repositories. In order to open links in the new tab I have used [freedcodecamp](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) tutorial.
 - The only alert reported by WAVE was the missing header so I decided to fix that. I adjusted the navbar to have the missing headers. Minor sizing adjustments were required in order for navbar to look the same as before the change.
+- Website is deployed using github and I have verified the access from various devices. README.md is updated and it is time to start working on uploading the assignment.
 
 ## To Do
 
 - [x] Review the project description
 - [x] Create starter files and initial commit
-- [] Deploy site
+- [x] Deploy site
 - [x] Navbar
 - [x] About
 - [x] Resume
 - [x] Projects
 - [x] Contact
-- [] Test for various screen sizes
-- [] Accessibility check
-- [] Performance check
+- [x] Test for various screen sizes
+- [x] Accessibility check
+- [x] Performance check
